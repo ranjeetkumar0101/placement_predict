@@ -9,7 +9,7 @@ def main():
 
     if st.button("predict"):
         result=model.predict([[cgpa]])
-        st.success(f"your package would be(resut)")
+        st.success(f"your package would be{result}")
 
 
 if __name__=="__main__":
