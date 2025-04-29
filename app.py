@@ -48,7 +48,7 @@ def main():
         elif cgpa >= 7.0:
             st.write("🟠 Solid performance. Consider improving for better offers.")
         else:
-            st.write("⚠️ You might need to focus on building skills and projects.")
+            st.write("")
 
     st.markdown("""
         <div style='text-align:center; margin-top:30px;'>
