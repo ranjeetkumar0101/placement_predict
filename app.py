@@ -30,9 +30,6 @@ def main():
         """, unsafe_allow_html=True)
 
     st.title("Welcome to Placement Predictor 🎓💼")
-
-    st.sidebar.header("Enter Your Details")
-    
     cgpa = st.slider("Choose your CGPA from slider", min_value=0.0, max_value=10.0, step=0.1)
     st.write(f"### Your CGPA: {cgpa:.2f}")
 
