@@ -31,8 +31,6 @@ def main():
 
     st.title("Welcome to Placement Predictor 🎓💼")
 
-    st.sidebar.image(r"C:/Users/PC-5/Desktop/new/placements.jpg", use_column_width=True)
-
     st.sidebar.header("Enter Your Details")
     
     cgpa = st.slider("Choose your CGPA from slider", min_value=0.0, max_value=10.0, step=0.1)
