@@ -56,7 +56,7 @@ def main():
 
     st.markdown("""
         <div style='text-align:center; margin-top:30px;'>
-        <p style='font-size: 12px;'>Created with ❤️ by Your Team. For any queries, contact us at support@placementpredictor.com</p>
+        <p style='font-size: 12px;'>Created with ❤️ by Ranjeet Kumar</p>
         </div>
     """, unsafe_allow_html=True)
 
