@@ -8,7 +8,7 @@ def main():
     st.write("enter cgpa",cgpa)
 
     if st.button("predict"):
-        result=model.predict([cgpa])
+        result=model.predict([[cgpa]])
         st.success(f"your package would be(resut)")
 
 
